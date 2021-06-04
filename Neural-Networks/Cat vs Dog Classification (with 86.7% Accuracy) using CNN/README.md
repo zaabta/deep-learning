@@ -1,6 +1,1 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf610
-{\fonttbl}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-}
+# Cat vs Dog Classification (with 86.7% Accuracy) using CNN
