@@ -1,4 +1,4 @@
-var TOTAL = 200;
+var TOTAL = 100;
 var birds = [];
 var pipes = [];
 var birdimage;
