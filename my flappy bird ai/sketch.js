@@ -32,7 +32,7 @@ function setup() {
 
   loadButton = createFileInput(handleFile); // to laod mode JSON
   loadButton.position(saveButton.width + 10 , height + 30);
-  generation = 0;
+  generation = 1;
 }
 
 function draw() {
