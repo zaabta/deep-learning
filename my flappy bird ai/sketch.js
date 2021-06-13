@@ -15,7 +15,7 @@ function preload(){
   upPipe = loadImage('upPipe.png');
   downPipe = loadImage('downPipe.png');
   back = loadImage('background.png');
-  font = loadFont('04B_19__.TTF');
+  font = loadFont('./04B_19__.TTF');
 }
 
 function setup() {
