@@ -94,7 +94,7 @@ background(back);
     //console.log("SPACE");
   }*/
   fill(255);
-  text(generation, width /2, 40);
+  text(generation, width/2, 40);
 }
 
 function saveMode(){
