@@ -1,4 +1,4 @@
-var TOTAL = 350;
+var TOTAL = 200;
 var birds = [];
 var pipes = [];
 var birdimage;
@@ -8,6 +8,7 @@ var savedBirds = [];
 var counter = 0;
 let slider;
 let saveButton, loadButton;
+var generation;
 
 function preload(){
   birdimage = loadImage('bird.png');
@@ -31,7 +32,7 @@ function setup() {
 
   loadButton = createFileInput(handleFile); // to laod mode JSON
   loadButton.position(saveButton.width + 10 , height + 30);
-
+  generation = 0;
 }
 
 function draw() {
