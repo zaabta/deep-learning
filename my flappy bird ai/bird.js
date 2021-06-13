@@ -16,8 +16,8 @@ class Bird {
     this.gravity = 0.7;
     this.lift = -12;
     this.velocity = 0;
-    this.width = 60;
-    this.height = 50;
+    this.width = 50;
+    this.height = 45;
     if(brain){
       this.brain = brain.copy();
     }else{
