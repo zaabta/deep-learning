@@ -15,7 +15,7 @@ function preload(){
   upPipe = loadImage('upPipe.png');
   downPipe = loadImage('downPipe.png');
   back = loadImage('background.png');
-  //font = loadFont('04B_19__.TTF');
+  font = loadFont('04B_19__.TTF');
 }
 
 function setup() {
@@ -33,7 +33,7 @@ function setup() {
 
   loadButton = createFileInput(handleFile); // to laod mode JSON
   loadButton.position(saveButton.width + 10 , height + 30);
-  //textFont(font);
+  textFont(font);
   textSize(width / 10);
   textAlign(CENTER, CENTER);
   generation = 1;
