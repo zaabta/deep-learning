@@ -8,7 +8,7 @@ var savedBirds = [];
 var counter = 0;
 let slider;
 let saveButton, loadButton;
-var generation, font;
+let generation, font;
 
 function preload(){
   birdimage = loadImage('bird.png');
