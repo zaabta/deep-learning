@@ -15,7 +15,7 @@ function preload(){
   upPipe = loadImage('upPipe.png');
   downPipe = loadImage('downPipe.png');
   back = loadImage('background.png');
-  font = loadFont('04B_19__.TTF');
+  font = loadFont('https://github.com/zaabta/p5.js/blob/main/flappy%20bird/p5/04B_19__.TTF');
 }
 
 function setup() {
