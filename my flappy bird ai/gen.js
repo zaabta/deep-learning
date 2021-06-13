@@ -8,6 +8,7 @@ function nextGeneration(){
     birds[i] = pickOne();
     }
   savedBirds = [];
+  generation +=1;
 }
 
 function pickOne(){
