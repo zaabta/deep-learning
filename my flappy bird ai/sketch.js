@@ -8,13 +8,14 @@ var savedBirds = [];
 var counter = 0;
 let slider;
 let saveButton, loadButton;
-var generation;
+var generation, font;
 
 function preload(){
   birdimage = loadImage('bird.png');
   upPipe = loadImage('upPipe.png');
   downPipe = loadImage('downPipe.png');
   back = loadImage('background.png');
+  font = loadFont('./04B_19__.TTF');
 }
 
 function setup() {
@@ -32,6 +33,9 @@ function setup() {
 
   loadButton = createFileInput(handleFile); // to laod mode JSON
   loadButton.position(saveButton.width + 10 , height + 30);
+  textFont(font);
+  textSize(width / 10);
+  textAlign(CENTER, CENTER);
   generation = 1;
 }
 
@@ -89,6 +93,8 @@ background(back);
     bird.up();
     //console.log("SPACE");
   }*/
+  fill(255);
+  text(generation, width /2, 20);
 }
 
 function saveMode(){
