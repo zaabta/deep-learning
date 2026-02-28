@@ -1,8 +1,3 @@
-تمام 👌
-لو تقصد **Description** (وصف المشروع) عشان تضعه في GitHub أو تقرير أو تسليمه، فهذا نموذج احترافي تقدر تستخدمه 👇
-
----
-
 # 📌 Project Description
 
 ## Titanic Survival Prediction using Logistic Regression (TensorFlow.js)
@@ -92,13 +87,3 @@ This file is ready for submission to Kaggle.
 * Train/Validation splitting
 * Exporting predictions to CSV
 * End-to-end ML pipeline in JavaScript
-
----
-
-لو تحب أكتب لك:
-
-* نسخة مختصرة للـ README
-* أو نسخة أكاديمية رسمية
-* أو وصف احترافي لمقابلات العمل
-
-قول لي أي نوع تريد 🔥
